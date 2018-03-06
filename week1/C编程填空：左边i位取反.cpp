@@ -3,7 +3,7 @@
 using namespace std;
 
 int bitManipulation3(int n, int i) {
-	return n ^ -1 >> 32 - i << 32 - i;
+	return n ^ -1 << 32 - i;
 }
 
 int main() {
